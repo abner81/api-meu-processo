@@ -5,6 +5,7 @@
     "main": "./dist/main/server.js",
     "scripts": {
         "start": "node dist/main/server.js",
+        "dev": "sucrase-node src/main/server.ts",
         "build": "rimraf dist && tsc"
     },
     "keywords": [],

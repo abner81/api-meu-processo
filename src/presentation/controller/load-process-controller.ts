@@ -17,7 +17,7 @@ export class LoadProcessController implements Controller {
         return badRequest(error)
       }
       const result = await this.loadProcessData.load(httpRequest.params)
-      if (!result || []) {
+      if (!result) {
         return badRequest(new Error('Processo não encontrado.'))
       }
       const res = result.map((processo: any) => {
