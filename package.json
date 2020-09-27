@@ -8,7 +8,7 @@
         "build": "rimraf dist && tsc"
     },
     "keywords": [],
-    "author": "",
+    "author": "Abner Machado",
     "license": "ISC",
     "devDependencies": {
         "@types/express": "^4.17.6",
