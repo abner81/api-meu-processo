@@ -1,5 +1,4 @@
 export default {
   mongoUrl: process.env.MONGO_URL || 'mongodb://localhost:27017/juridico-hack',
-  port: process.env.PORT || 5050,
-  jwtSecret: process.env.JWT_SECRET || 'TDYshdg234348==sj213j'
+  port: process.env.PORT || 5050
 }
